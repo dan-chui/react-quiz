@@ -13,6 +13,12 @@
       "points": 10
     },
     {
+      "question": "What does ES6 stand for?",
+      "options": ["ECMAScript 6", "ECMA 6", "ECMAJavaScript6", "EJavaScript6"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
       "question": "What's the fundamental building block of React apps?",
       "options": ["Components", "Blocks", "Elements", "Effects"],
       "correctOption": 0,
@@ -22,6 +28,17 @@
       "question": "What's the name of the syntax we use to describe the UI in React components?",
       "options": ["FBJ", "Babel", "JSX", "ES2015"],
       "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which of the following command is used to install create-react-app?",
+      "options": [
+        "npm install create-react-app",
+        "npm install -g create-react-app",
+        "install -g create-react-app",
+        "None of the above"
+      ],
+      "correctOption": 1,
       "points": 10
     },
     {
@@ -53,6 +70,23 @@
       "points": 30
     },
     {
+      "question": "Which of the following method is used to access the state of a component from inside of a member function?",
+      "options": [
+        "this.prototype.stateValue",
+        "this.getState()",
+        "this.values",
+        "this.state"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "In MVC, what does React.js act as?",
+      "options": ["Model", "Controller", "View", "Middleware"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
       "question": "What triggers a UI re-render in React?",
       "options": [
         "Running an effect",
@@ -64,12 +98,73 @@
       "points": 20
     },
     {
+      "question": "What is ReactJS mainly used for building?",
+      "options": [
+        "Database",
+        "Connectivity",
+        "User interface",
+        "Design platform"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "What is the declarative way to render a dynamic list of components based on values in an array?",
+      "options": [
+        "Using the reduce array method",
+        "Using the <Each /> component",
+        "Using the Array.map() method",
+        "With a for/while loop"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
       "question": "When do we directly \"touch\" the DOM in React?",
       "options": [
         "When we need to listen to an event",
         "When we need to change the UI",
         "When we need to add styles",
         "Almost never"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "Does React.js create a VIRTUAL DOM in the memory?",
+      "options": [
+        "True",
+        "False",
+        "Can be either, True or False",
+        "Cannot be sure"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Using which of the following command can prevent default behaviour at in react?",
+      "options": [
+        "preventDefault()",
+        "avoidDefault()",
+        "blockDefault()",
+        "All of the above"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Which of the following keyword is used to create a class inheritance?",
+      "options": ["Create", "Inherits", "Extends", "This"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which of the following lifecycle events React components have at the highest level?",
+      "options": [
+        "Destruction",
+        "Initialization",
+        "State/Property Updates",
+        "All of the above"
       ],
       "correctOption": 3,
       "points": 20
@@ -92,6 +187,17 @@
         "Each time we update the state",
         "Only on the initial render",
         "The first time we update the state"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Choose the method which is not a part of ReactDOM.",
+      "options": [
+        "ReactDOM.createPortal()",
+        "ReactDOM.hydrate()",
+        "ReactDOM.destroy()",
+        "ReactDOM.findDOMNode()"
       ],
       "correctOption": 2,
       "points": 30
@@ -122,6 +228,50 @@
         "In depends on the code in the effect"
       ],
       "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "What is the functionality of a “webpack” command?",
+      "options": [
+        "Runs React local development server",
+        "Transfer files from all the JavaScript into one file",
+        "A module bundler",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "In react, the key should be?",
+      "options": [
+        "Unique among its siblings only",
+        "Unique in the DOM",
+        "Does not need to be unique",
+        "All of the above"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "We can update the state in React.js by calling to setState() method. These calls are:",
+      "options": [
+        "Synchronous in nature",
+        "Asynchronous in nature",
+        "Are asynchronous but can be made synchronous when required",
+        "None of the above"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Choose the component which should be overridden to stop the component from updating?",
+      "options": [
+        "componentDidUpdate",
+        "componentDidMount",
+        "WillComponentUpdate",
+        "shouldComponentUpdate"
+      ],
+      "correctOption": 3,
       "points": 30
     },
     {
