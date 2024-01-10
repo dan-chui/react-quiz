@@ -18,7 +18,8 @@ This app features multiple choice questions to test a person's knowledge of Reac
 ---
 ## Demo
 
-Please visit (in a new tab): 
+Please visit (in a new tab):
+https://react-quiz-dan-chui.vercel.app/
 
 ---
 
